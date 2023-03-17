@@ -47,9 +47,6 @@ body {
     display: flex;
     justify-content: space-around;
     font-weight: 600;
-}
-
-.menu {
     text-decoration: none;
     color: rgb(255, 255, 255);
     font-family: kanit;
