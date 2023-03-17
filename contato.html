@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contatos</title>
+
+    <link rel="icon" type="img/png" href="img/icone aba.jpg"> <!--icone na aba do site-->
+
+    <link rel="stylesheet" href="./CSS/contato.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@200&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/03bb0844e4.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="img_fundo">
+
+        <div id="titulo_banner">
+            <h1>Animes for you</h1>
+        </div>
+
+        <nav class="nav">
+            <div id="menu">
+                <a href="index.html">Inicio</a>
+                <a href="anime.html">Animes</a>
+                <a href="serie.html">Séries</a>
+                <a href="lancamento.html">Lançamentos</a>
+                <a href="contato.html">Contato</a>
+
+            </div>
+        </nav>
+        <section>
+            <form>
+                <div class="formulario">
+                    <label>Nome:</label>
+                    <input placeholder="Digite aqui" required="required" type="text" name="nome">
+                </div>
+
+                <div class="formulario">
+                    <label>Sobrenome:</label>
+                    <input placeholder="Digite aqui" required="required" type="text" name="nome">
+                </div>
+
+                <div class="formulario">
+                    <label>Qual sua cidade:</label>
+                    <select>
+                        <option>São Paulo</option>
+                        <option>Rio de Janeiro</option>
+                        <option>Rio Grande do Sul</option>
+                        <option>Santa Catarina</option>
+                    </select>
+                </div>
+
+                <div class="formulario">
+                    <label>E-mail:</label>
+                    <input placeholder="Digite aqui" required="required" type="email" name="nome">
+                </div>
+
+                <div class="formulario">
+                    <label>Qual teu estilho preferido:</label>
+                    <div class="checkbox">
+                        <input type="checkbox" value="romance">
+                        <label>Romance</label>
+
+                        <input type="checkbox" value="terror">
+                        <label>Terror</label>
+
+                        <input type="checkbox" value="esporte">
+                        <label>Esporte</label>
+
+                        <input type="checkbox" value="comedia">
+                        <label>Comédia</label>
+                    </div>
+                </div>
+
+                <div class="formulario">
+                    <label>Deixe aqui seu comentario!</label>
+                    <textarea placeholder="Digite aqui" rows="8" cols="30" name="mensagem"></textarea>
+                </div>
+
+                <input type="submit" value="Enviar">
+            </form>
+        </section>
+    </div>
+</body>
+
+</html>

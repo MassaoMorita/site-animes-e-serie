@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@200&display=swap');
+
+@font-face {
+    font-family: anime;
+    src: url(/font/animeace2_bld.ttf);
+}
+
+body {
+    background-image: url(/img/anime-background.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 7%;
+    margin-right: 7%;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+#img_fundo {
+    background-color: rgba(48, 48, 48, 0.97);
+}
+
+#titulo_banner {
+    background-color: rgb(0, 0, 0);
+    border-radius: 10px;
+    border: rgb(82, 82, 82) solid;
+
+}
+
+#titulo_banner h1 {
+    font-family: anime;
+    font-size: 80px;
+    text-align: center;
+    color: #303030;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+    margin-top: 20px;
+}
+
+.nav1 {
+    margin-top: 90px;
+    margin-bottom: 20px;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-around;
+    font-weight: 600;
+}
+
+.menu {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-family: kanit;
+    font-size: 20px;
+}
+
+.menu a:hover {
+    color: bisque;
+}
+
+.menu_list .list {
+    display: flex;
+    flex-direction: column;
+}
+
+.menu2 {
+    text-decoration: none;
+    color: rgb(167, 228, 243);
+    font-family: kanit;
+    font-size: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+h2 {
+    display: grid;
+    grid-template-columns: column;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 0;
+}
+
+ul {
+    margin-top: 0px;
+}
+
+ul li {
+    list-style: none;
+    display: flex;
+    grid-template-columns: 50% 50%;
+    margin-bottom: 10px;
+}
+
+#tab {
+    display: flex;
+    grid-template-columns: 50% 50%;
+    justify-content: space-around;
+}
+
+@media only screen and (max-width: 600px) {
+
+    body {
+        margin-left: 12px;
+        margin-right: 12px;
+    }
+
+    #group_banner {
+        display: grid;
+        grid-template-columns: 100px 100px;
+        justify-content: space-around;
+        margin-top: 110px;
+    }
+
+    .banner_anime {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 5px;
+    }
+
+    #titulo_banner h1 {
+        font-size: 45pt;
+    }
+
+}
