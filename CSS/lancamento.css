@@ -115,10 +115,9 @@ h3 {
         margin-right: 12px;
     }
 
-    #group_banner {
+        #group_banner {
         display: grid;
-        grid-template-columns: 100px 100px;
-        justify-content: space-around;
+        justify-content: center;
         margin-top: 110px;
     }
 
@@ -127,10 +126,27 @@ h3 {
         flex-direction: column;
         align-items: center;
         margin: 5px;
+        margin-top: -5px;
     }
 
     #titulo_banner h1 {
         font-size: 45pt;
+    }
+
+    .timer {
+        display: grid;
+        grid-auto-flow: column;
+        justify-content: space-around;
+        margin-left: 40%;
+        margin-right: 40%;
+        color: white;
+        margin-top: px;
+    }
+    
+    p {
+        color: white;
+        font-size: 10pt;
+        text-align: center;
     }
 
 }
