@@ -58,7 +58,7 @@ body {
 
 #group_banner {
     display: grid;
-    grid-template-columns: 100px 100px 100px 100px 100px;
+    grid-template-columns: 100px 100px 100px ;
     justify-content: space-around;
     margin-top: 110px;
 
